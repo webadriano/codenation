@@ -15,7 +15,7 @@ async function createFile() {
 
     let decifrado = converter(cifrado, numero_casas)
     data.decifrado = decifrado
-    data.resumo_criptografico = sha1('a misplaced decimal point will always end up where it will do the greatest damage. unknown')
+    data.resumo_criptografico = sha1(decifrado)
     fs.writeFile(
         file,
         JSON.stringify(data),
