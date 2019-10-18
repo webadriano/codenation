@@ -1,0 +1,12 @@
+{
+  "name": "desafio-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Adriano Oliveira",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "form-data": "^2.5.1",
+    "sha1": "^1.1.1"
+  }
+}
